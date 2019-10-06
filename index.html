@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>White Panda</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="https://kit.fontawesome.com/yourcode.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet'>
+
+</head>
+
+
+
+<style>
+
+*{
+  margin-left:45px;
+  font-family:'Arimo';
+  
+  
+}
+
+
+h1{ font-family:'Anaheim';
+}
+
+p{
+color: grey;
+
+}
+
+
+
+#abc{
+  background-color: white; 
+  border: solid;
+  color: #3ebcb3;
+  border-radius: 5px;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+}
+
+#ab{
+  background-color: white; 
+  border: solid;
+  color: #3ebcb3;
+  border-radius: 5px;
+  padding: 8px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+
+}
+
+.header {
+
+  overflow: hidden;
+  background-color: white;
+  padding: 0px 0px;  
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 15px 0 rgba(0, 0, 0, 0.01);
+  margin-left: -5px;
+  
+  width:100%;
+}
+
+
+.header-right {
+  float: right;
+}
+
+
+
+
+.sidenav {
+
+  height: 100%;
+  margin-left:0px;
+  width: 10%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 1px 15px 0 rgba(0, 0, 0, 0.01);
+}
+
+.sidenav a{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+
+
+
+.material-icons:hover{
+   color:#3ebcb3 !important;
+}
+
+.h3:hover{
+   color:#3ebcb3 !important;
+}
+
+
+
+
+
+.contentblock{
+background-color: #f8f8f8;
+}
+
+
+
+
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 25px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+box-shadow: 0 0.5px 0 0 rgba(0, 0.1, 0, 0);
+  <!--box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1); -->
+  padding: 16px;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.card:hover{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.heading{
+
+vertical-align: middle;
+
+}
+
+.contentblock{
+width: 85%;
+}
+
+a{ text-decoration:none;
+color: black;
+}
+a:hover{
+color:#3ebcb3;}
+
+.underline{
+text-decoration: underline;
+color:
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+<body>
+
+
+<div class="sidenav">
+
+
+  <a href="#application"><i class="material-icons" style="font-size:36px; color: #a9a9a9">apps</i></a>
+  <a href="#search"><i class="material-icons" style="font-size:36px; color: #a9a9a9">search</i></a>
+  <a href="#store"><i class="material-icons" style="font-size:36px; color: #a9a9a9">store</i></a>
+  </div>
+
+
+
+
+
+
+
+
+
+
+<header>
+
+<div class="header">
+
+<a href="#default" class="logo"><img src="logo_comp.png" alt="logo" style="width:10%;height:auto;border:0;"></a>
+
+
+
+
+
+<div class="header-right">
+    <a class="active" href="#home" style="align:right"><p><i class='far fa-bell' style='font-size:30px;color:black'></i><i class='fas fa-user-circle' style='font-size:36px;color:green'></i></p></a>
+	
+ <!--   <a class="active" href="#contact"><p><img src="profile.png" alt="account" style="width:4%;height:auto;border:0;"></p></a>            -->
+ 
+  </div>
+</div>
+
+
+</header>
+
+
+
+  
+ 
+
+
+
+
+
+
+ 
+  
+  
+
+<div class="block">
+<h1>Content Store</h1>
+<div class="contentblock">
+<br>
+
+<h3 class="bar" style="color: #3ebcb3">Got bulk orders or almost similar orders ? Fill the order brief in an excel sheet</h3>
+<p>If you're wondering about an easy way to place orders in large numbers,we provide a way customized just for that.<br>Download our excel sheet, and fill the order brief in the prescribed format and submit. In case you need any help,we are just a click away to assist you in placing your order</p>
+
+<button type="button" id="abc">Order via Excel Sheet</button>
+
+
+<br>
+<br>
+
+</div>
+</div>
+
+
+
+<br>
+<br>
+
+
+
+
+<div class="row">
+
+  <div class="column">
+    <a href="blog"><div class="card">
+	
+	<div class="heading">
+	  
+	  <h3>Blog/Article</h3>
+	  
+	  
+	  
+      <h4>from Rs.500</h4></div>
+      <p>Typically 450-500 words, an e-book is<br> perfect for your target audience ranging<br> from prospective customers to users</p>
+	  <button type="button" id="ab">Order</button>
+	  <br>
+	  <br>
+	  </a>
+	  
+    </div>
+  </div>
+
+  <div class="column">
+    <a href="blog"><div class="card">
+	<div class="heading">
+      <h3>Newsletter/E-mailer</h3>
+	  
+      <h4>from Rs.1000<h4> </div>
+      <p>Typically 450-500 words, an e-book is<br> perfect for your target audience ranging<br> from prospective customers to users</p>
+	  <button type="button" id="ab">Order</button>
+	  <br>
+	  <br>
+	  </a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <a href="blog"><div class="card">
+	<div class="heading">
+      <h3>Whitepaper</h3>
+	  
+      <h4>from Rs.2000</h4> </div>
+      <p>Typically 450-500 words, an e-book is<br> perfect for your target audience ranging<br> from prospective customers to users</p>
+	  <button type="button" id="ab">Order</button>
+	  <br>
+	  <br>
+	  </a>
+    </div>
+  </div>
+ </div>
+
+
+<br>
+ <br>
+
+<div class="row">
+  <div class="column">
+    <a href="blog"><div class="card">
+      <div class="heading">
+	  <h3>e-book</h3>
+      <h4>from Rs.2000</h4> </div>
+      <p>Typically 450-500 words, an e-book is<br> perfect for your target audience ranging<br> from prospective customers to users</p>
+	  <button type="button" id="ab">Order</button>
+	  <br>
+	  <br>
+	  </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <a href="blog"><div class="card">
+	<div class="heading">
+      <h3>Report/Guide</h3>
+	  
+      <h4>from Rs.2000</h4> </div>
+      <p>Typically 450-500 words, an e-book is<br> perfect for your target audience ranging<br> from prospective customers to users</p>
+	  <button type="button" id="ab">Order</button>
+	  <br>
+	  <br>
+	  </a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <a href="blog"><div class="card">
+	<div class="heading">
+      <h3>Product Description</h3>
+	  
+      <h4>from Rs.2000</h4> </div>
+      <p>Typically 450-500 words, an e-book is<br> perfect for your target audience ranging<br> from prospective customers to users</p>
+	  <button type="button" id="ab">Order</button>
+	  <br>
+	  <br>
+	  </a>
+    </div>
+  </div>
+ </div>
+ 
+ <br>
+ <br>
+ 
+ <div class="row">
+  <div class="column">
+    <a href="blog"><div class="card">
+	<div class="heading">
+      <h3>Website Content</h3>
+	  
+      <h4>from Rs.2000</h4> </div>
+      <p>Typically 450-500 words, an e-book is<br> perfect for your target audience ranging<br> from prospective customers to users</p>
+	  <button type="button" id="ab">Order</button>
+	  <br>
+	  <br>
+	  </a>
+    </div>
+  </div>
+
+  <div class="column">
+    <a href="blog"><div class="card">
+	<div class="heading">
+      <h3>Video Script</h3>
+	  
+      <h4>from Rs.2000</h4> </div>
+      <p>Typically 450-500 words, an e-book is<br> perfect for your target audience ranging<br> from prospective customers to users</p>
+	  <button type="button" id="ab">Order</button>
+	  <br>
+	  <br>
+	  </a>
+    </div>
+  </div>
+  
+  <div class="column">
+    <a href="blog"><div class="card">
+	<div class="heading">
+      <h3>Company Profile/Brochure</h3>
+	  
+      <h4>from Rs.2000</h4> </div>
+      <p>Typically 450-500 words, an e-book is<br> perfect for your target audience ranging<br> from prospective customers to users</p>
+	  <button type="button" id="ab">Order</button>
+	  <br>
+	  <br>
+	  </a>
+    </div>
+  </div>
+ </div>
+
+
+<br>
+ <br>
+
+<div class="row">
+<div class="column">
+    <a href="blog"><div class="card">
+	<div class="heading">
+      <h3>Press Release</h3>
+	  
+      <h4>from Rs.2000</h4>
+	  </div>
+      <p>Typically 450-500 words, an e-book is<br> perfect for your target audience ranging<br> from prospective customers to users</p>
+	  <button type="button" id="ab">Order</button>
+	  <br>
+	  <br>
+	  </a>
+    </div>
+  </div>
+ </div>
+
+
+
+
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer-->
+<div class="footer">
+<div class="footer-content">
+
+<!--//commentedout
+<table style="width:100%">
+  <tr>
+    <th><img src="insta.png" style="width:50px;height:50px";></th>
+    <th><img src="linkedin.png" style="width:50px;height:50px;></th>
+    <th><img src="twitter.png" style="width:50px;height:50px; ;></th>
+	<th><img src="facebook.png" style="width:50px;height:50px; ;></th>
+  </tr>
+  
+  
+</table>
+-->
+
+
+
+
+<div class="footer-bottom"> </div>
+
+<div style="text-align:center">
+<i class='fab fa-twitter' style='font-size:36px;color:#c0c0c0'></i>
+<i class='fab fa-linkedin' style='font-size:36px;color:#c0c0c0'></i>
+<i class='fab fa-instagram' style='font-size:36px;color:#c0c0c0'></i>
+<i class='fab fa-facebook-f' style='font-size:36px;color:#c0c0c0'></i>
+
+
+
+
+</div>
+
+<h4 style="text-align:center; color:#c0c0c0">Copyright @ 2019 White Panda Pvt. Ltd.<br> All rights reserved <br><u>Privacy Policy</u> | <u>Terms of Service</u> | <u>Service Agreement</u> | <u>Contact us</u></h4>
+
+</div>
+
+
+
+
+
+<!--//footer-->
+
+
+
+</body>
+</html>
